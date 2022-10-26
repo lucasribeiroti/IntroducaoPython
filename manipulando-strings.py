@@ -8,10 +8,10 @@ Essas funções podem ser usadas diretamente em cada tipo.
 # positivos [012345678]
 # negativos -[987654321]
 """
-texto = "Python s2"
+texto = "Python sz"
 print(texto[-8])
 """
-texto = "Python_s2"
+texto = "Python_sz"
 nova_string = texto[1:6]  # definindo início e fim (se o início for a partir do 0, não precisa colocar o 0)
 nova_string2 = texto[0:6:2]  # pulando casas
 

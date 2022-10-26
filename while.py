@@ -9,13 +9,14 @@ uma condição for verdadeira.
 
 #  exemplo1
 x = 0
-while x <= 10:
-    if x == 3:
-        x = x + 1
+while x <= 10:  # enquanto x for menor ou igual a 10:
+    if x == 3:  # se x é igual a 3: (nesse caso o número 3 será pulado)
+        x += 1  # x é igual a x e soma 1 (x += 1 ou x = x + 1)
         continue  # o comando pula um resultado dentro de uma condição
     print(x)
-    x = x + 1
+    x += 1
 print("Fim!")
+
 
 # exemplo2
 x = 0
@@ -27,12 +28,14 @@ while x <= 10:
     x = x + 1
 print("Fim!")
 
+
 # exemplo3
-while x < 11:
+x = 0  # coluna
+while x < 10:
     y = 0  # linha
-    while y < 6:
+    while y <= 9:
         print(f"({x},{y})")
         y += 1
-    x += 1  # isso é igual á x = x + 1
+    x += 1
 
 print("Acabou")
