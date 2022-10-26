@@ -6,5 +6,6 @@ tamanho_frase = len(frase)
 contador = 0
 
 while contador < 33:
-    print(frase[contador])
+    print(frase[contador], contador)
     contador += 1
+
